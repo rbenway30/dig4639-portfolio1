@@ -7,6 +7,7 @@ export default class ExDescription extends React.Component {
     render() {
         // console.log("Repetition Exercise")
         return <div>
+            <h3>Exercise Description:</h3>
             <p>{this.props.description}</p>
         </div>
     }
