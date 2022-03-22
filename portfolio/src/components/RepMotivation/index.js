@@ -1,5 +1,5 @@
 import React from 'react'
-export default class ExMotivation extends React.Component {
+export default class RepMotivation extends React.Component {
     constructor(props) {
         super(props)
     }

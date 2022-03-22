@@ -1,7 +1,7 @@
 import React from 'react'
 import ExDescription from '../ExerciseDescriptions'
 import refreshApp from '../Refresh'
-import ExMotivation from '../Motivation'
+import RepMotivation from '../RepMotivation'
 
 export default class RepExercise extends React.Component {
     constructor(props) {
@@ -13,7 +13,7 @@ export default class RepExercise extends React.Component {
         return <div>
             <h2>{this.props.name}</h2>
             <ExDescription description={this.props.description}></ExDescription>
-            <ExMotivation goal={this.props.goal} count={this.state.count}></ExMotivation>
+            <RepMotivation goal={this.props.goal} count={this.state.count}></RepMotivation>
             <p>You've completed {this.state.count} reps</p>
 
             <button onClick={() => this.setState({ count: this.state.count + 1 })}>

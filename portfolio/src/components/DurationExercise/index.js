@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import ExDescription from '../ExerciseDescriptions'
 import refreshApp from '../Refresh'
-import ExMotivation from '../Motivation'
+import RepMotivation from '../RepMotivation'
 // //function states uses useState, which sets the state for each individual value
 export default function DurExercise(props) {
     //sets the state of time to 0
