@@ -16,7 +16,7 @@ export default class RepMotivation extends React.Component {
         }
         else{
             return <div>
-            <h2>Goal: {goal}</h2>
+            <h2>Goal: {goal} Reps</h2>
         </div>
         }
     }

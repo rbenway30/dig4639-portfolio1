@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import ExDescription from '../ExerciseDescriptions'
 import refreshApp from '../Refresh'
-import RepMotivation from '../RepMotivation'
+// import RepMotivation from '../RepMotivation'
 // //function states uses useState, which sets the state for each individual value
 export default function DurExercise(props) {
     //sets the state of time to 0
@@ -33,7 +33,7 @@ export default function DurExercise(props) {
                 <h2>{props.name}</h2>
                 {/* <p>{props.description}</p> */}
                 <ExDescription description={props.description}></ExDescription>
-                <ExMotivation goal={props.goal}></ExMotivation>
+                {/* <ExMotivation goal={props.goal}></ExMotivation> */}
                 <p>Timer: {String(minutes).padStart(2, 0)}:
                     {String(seconds).padStart(2, 0)}:
                     {String(miliseconds).padStart(2, 0)}</p>
