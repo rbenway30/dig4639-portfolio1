@@ -65,7 +65,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Lab 5</h1>
+      <h1>Portfolio 1</h1>
       <SelectEx setExercise={setExercise} theExercise={exercise} />
     </div>
   );
