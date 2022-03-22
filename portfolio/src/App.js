@@ -8,22 +8,26 @@ let ExerciseData = [
   {
     name: "Push-Ups",
     type: "repetition",
-    description: "Lying face down, keeping legs and back straight, extend arms straight to push body up and back down again."
+    description: "Lying face down, keeping legs and back straight, extend arms straight to push body up and back down again.",
+    goal: 10
   },
   {
     name: "Cycling",
     type: "duration",
-    description: "In a seated position, alternate pushing pedals with each leg in a consistent rythym. Try to keep a consistent pace for 30 minutes."
+    description: "In a seated position, alternate pushing pedals with each leg in a consistent rythym. Try to keep a consistent pace for 30 minutes.",
+    goal: 30
   },
   {
     name: "Squats",
     type: "repetition",
-    description: "With your feet shoulder width apart, bend at the knee until your knee is at a 90 degree angle. Be sure to engage your core and glutes."
+    description: "With your feet shoulder width apart, bend at the knee until your knee is at a 90 degree angle. Be sure to engage your core and glutes.",
+    goal: 8
   },
   {
     name: "Plank",
     type: "duration",
-    description: "Facing downward, hold yourself up by your forearms and toes, keeping your torso and legs in a straigt line. Hold for 1 minute"
+    description: "Facing downward, hold yourself up by your forearms and toes, keeping your torso and legs in a straigt line. Hold for 1 minute",
+    goal: 45
   }
 ]
 
@@ -78,6 +82,3 @@ function App() {
 
 export default App;
 
-//Create menu screen and exercise screen
-//create repetition and timer exercise components
-//create different variations of each exercise component
