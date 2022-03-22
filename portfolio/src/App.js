@@ -18,12 +18,12 @@ let ExerciseData = [
   {
     name: "Squats",
     type: "repetition",
-    description: "Lie horizontally, push against the ground"
+    description: "With your feet shoulder width apart, bend at the knee until your knee is at a 90 degree angle. Be sure to engage your core and glutes."
   },
   {
     name: "Plank",
     type: "duration",
-    description: "Lie horizontally, push against the ground"
+    description: "Facing downward, hold yourself up by your forearms and toes, keeping your torso and legs in a straigt line. Hold for 1 minute"
   }
 ]
 
