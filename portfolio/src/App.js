@@ -8,7 +8,7 @@ let ExerciseData = [
   {
     name: "Push-Ups",
     type: "repetition",
-    description: "Lie horizontally, push against the ground"
+    description: "Lying face down, keeping legs and back straight, extend arms straight to push body up and back down again."
   },
   {
     name: "Cycling",
