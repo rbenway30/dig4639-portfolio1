@@ -10,7 +10,7 @@ export default class RepMotivation extends React.Component {
         if (count >= goal){
             return (
             <div>
-                <p>Congrats! You hit your goal!</p>
+                <h2>Congrats! You hit your goal!</h2>
             </div>
             )
         }
