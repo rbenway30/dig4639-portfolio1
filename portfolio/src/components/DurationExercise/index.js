@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-
+import ExDescription from '../ExerciseDescriptions'
 // //function states uses useState, which sets the state for each individual value
 export default function DurExercise(props) {
     //sets the state of time to 0
@@ -30,6 +30,7 @@ export default function DurExercise(props) {
             <div>
                 <h2>{props.name}</h2>
                 {/* <p>{props.description}</p> */}
+                <ExDescription description={props.description}></ExDescription>
                 <p>Timer: {String(minutes).padStart(2, 0)}:
                     {String(seconds).padStart(2, 0)}:
                     {String(miliseconds).padStart(2, 0)}</p>
