@@ -48,14 +48,15 @@ function Menu(props) {
 function SelectEx(props) {
   const exName = props.theExercise.name;
   const exType = props.theExercise.type;
+  const exDes = props.theExercise.description;
 
   if (exType == "repetition") {
     console.log(exName)
-    return <RepExercise name={exName}></RepExercise>
+    return <RepExercise name={exName} description={exDes}></RepExercise>
   }
   else if (exType == "duration") {
     console.log(exName)
-    return <DurExercise name={exName}></DurExercise>
+    return <DurExercise name={exName} description={exDes}></DurExercise>
   }
   else {
     return <Menu setExercise={props.setExercise}></Menu>
