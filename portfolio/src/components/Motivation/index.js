@@ -6,8 +6,18 @@ export default class ExMotivation extends React.Component {
 
     render() {
         const goal = this.props.goal;
-        return <div>
+        const count = this.props.count;
+        if (count >= goal){
+            return (
+            <div>
+                <p>Congrats! You hit your goal!</p>
+            </div>
+            )
+        }
+        else{
+            return <div>
             <h2>Goal: {goal}</h2>
         </div>
+        }
     }
 }
