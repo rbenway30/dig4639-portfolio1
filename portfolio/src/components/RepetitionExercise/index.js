@@ -1,5 +1,6 @@
 import React from 'react'
 import ExDescription from '../ExerciseDescriptions'
+import refreshApp from '../Refresh'
 
 export default class RepExercise extends React.Component {
     constructor(props) {
@@ -19,6 +20,9 @@ export default class RepExercise extends React.Component {
                 Reset
             </button>
             {/* return button ??*/}
+            <div>
+            <button onClick={refreshApp}>Back</button>
+            </div>
         </div>
     }
 }

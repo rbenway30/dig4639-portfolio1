@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import ExDescription from '../ExerciseDescriptions'
+import refreshApp from '../Refresh'
 // //function states uses useState, which sets the state for each individual value
 export default function DurExercise(props) {
     //sets the state of time to 0
@@ -39,7 +40,9 @@ export default function DurExercise(props) {
                 <button onClick={() => setRunning(true)}>Start</button>
                 <button onClick={() => setRunning(false)}>Stop</button>
                 <button onClick={() => setTime(0)}>Reset</button>
-                {/* return button ??*/}
+                <div>
+                <button onClick={refreshApp}>Back</button>
+                </div>
             </div>
         </>
     )
