@@ -13,7 +13,7 @@ export default class RepExercise extends React.Component {
         return <div>
             <h2>{this.props.name}</h2>
             <ExDescription description={this.props.description}></ExDescription>
-            <ExMotivation goal={this.props.goal}></ExMotivation>
+            <ExMotivation goal={this.props.goal} count={this.state.count}></ExMotivation>
             <p>You've completed {this.state.count} reps</p>
 
             <button onClick={() => this.setState({ count: this.state.count + 1 })}>
