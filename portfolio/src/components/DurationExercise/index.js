@@ -29,6 +29,7 @@ export default function DurExercise(props) {
         <>
             <div>
                 <h2>{props.name}</h2>
+                <p>{props.description}</p>
                 <p>Timer: {String(minutes).padStart(2, 0)}:
                     {String(seconds).padStart(2, 0)}:
                     {String(miliseconds).padStart(2, 0)}</p>
