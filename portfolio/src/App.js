@@ -53,14 +53,15 @@ function SelectEx(props) {
   const exName = props.theExercise.name;
   const exType = props.theExercise.type;
   const exDes = props.theExercise.description;
+  const exGoal = props.theExercise.goal;
 
   if (exType == "repetition") {
     console.log(exName)
-    return <RepExercise name={exName} description={exDes}></RepExercise>
+    return <RepExercise name={exName} description={exDes} goal={exGoal}></RepExercise>
   }
   else if (exType == "duration") {
     console.log(exName)
-    return <DurExercise name={exName} description={exDes}></DurExercise>
+    return <DurExercise name={exName} description={exDes} goal={exGoal}></DurExercise>
   }
   else {
     return <Menu setExercise={props.setExercise}></Menu>
