@@ -13,7 +13,7 @@ let ExerciseData = [
   {
     name: "Cycling",
     type: "duration",
-    description: "Lie horizontally, push against the ground"
+    description: "In a seated position, alternate pushing pedals with each leg in a consistent rythym. Try to keep a consistent pace for 30 minutes."
   },
   {
     name: "Squats",
