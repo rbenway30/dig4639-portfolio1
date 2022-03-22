@@ -7,19 +7,23 @@ import DurExercise from './components/DurationExercise';
 let ExerciseData = [
   {
     name: "Push-Ups",
-    type: "repetition"
+    type: "repetition",
+    description: "Lie horizontally, push against the ground"
   },
   {
     name: "Cycling",
-    type: "duration"
+    type: "duration",
+    description: "Lie horizontally, push against the ground"
   },
   {
     name: "Squats",
-    type: "repetition"
+    type: "repetition",
+    description: "Lie horizontally, push against the ground"
   },
   {
     name: "Plank",
-    type: "duration"
+    type: "duration",
+    description: "Lie horizontally, push against the ground"
   }
 ]
 
